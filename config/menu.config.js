@@ -145,22 +145,22 @@ export default [
                 url: `https://www.baidu.com/`,
             },]
     },
-    {
-        title: "watermark",
-        url: "https://mpw0311.github.io/watermark",
-        key: "watermark",
-        icon: "bar-chart"
-    },
-    {
-        title: "图形组件demo",
-        url: "https://mpw0311.github.io/react-charts",
-        key: "react-charts",
-        icon: "bar-chart"
-    },
-    {
-        title: "请给star",
-        url: "https://github.com/mpw0311/antd-umi-sys",
-        key: "github",
-        icon: "star"
-    },
+    // {
+    //     title: "watermark",
+    //     url: "https://mpw0311.github.io/watermark",
+    //     key: "watermark",
+    //     icon: "bar-chart"
+    // },
+    // {
+    //     title: "图形组件demo",
+    //     url: "https://mpw0311.github.io/react-charts",
+    //     key: "react-charts",
+    //     icon: "bar-chart"
+    // },
+    // {
+    //     title: "请给star",
+    //     url: "https://github.com/mpw0311/antd-umi-sys",
+    //     key: "github",
+    //     icon: "star"
+    // },
 ];

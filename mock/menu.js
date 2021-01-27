@@ -92,18 +92,18 @@ const menuData = [
             }
         ]
     },
-    {
-        title: "水印",
-        key: "watermark",
-    },
-    {
-        title: "图形组件",
-        key: "react-charts",
-    },
-    {
-        title: "请给star",
-        key: "github",
-    },
+    // {
+    //     title: "水印",
+    //     key: "watermark",
+    // },
+    // {
+    //     title: "图形组件",
+    //     key: "react-charts",
+    // },
+    // {
+    //     title: "请给star",
+    //     key: "github",
+    // },
 ];
 const data = Mock.mock({
     data: menuData,

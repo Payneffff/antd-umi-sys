@@ -70,7 +70,7 @@ function Users({ dispatch, list: dataSource, loading, total, page: current }) {
           record={{}}
           onOk={createHandler}
         >
-          <Button type="primary">Create User</Button>
+          <Button type="primary">Create xxxxxx User</Button>
         </UserModal>
       </div>
       <Table

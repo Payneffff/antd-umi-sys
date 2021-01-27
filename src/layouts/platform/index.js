@@ -190,7 +190,7 @@ class Platform extends PureComponent {
                             <BackTop target={() => document.getElementById('backTop')} style={{ right: 20, bottom: 25 }} />
                         </Layout>
                         {/* 点赞弹窗 */}
-                        <StartedModal />
+                        {/* <StartedModal /> */}
                     </Context.Provider>
                 )}
             </ContainerQuery>
