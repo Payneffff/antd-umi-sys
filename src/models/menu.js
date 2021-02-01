@@ -4,7 +4,7 @@
  * @Author: liupf
  * @Date: 2021-01-27 18:46:42
  * @LastEditors: liupf
- * @LastEditTime: 2021-01-27 19:00:40
+ * @LastEditTime: 2021-02-01 16:22:37
  */
 
 /**
@@ -34,7 +34,6 @@ export default {
             let menusData = yield select(({ menu }) => menu.menuData);
             if (!(menusData && menusData.length > 0)) {
                 const { data = [] } = yield call(api.getMenuData, {});
-                console.log(data)
                 const { menusData, diffMenuData } = munesFilter(orginalData, data, menuPermission);
                 const flattenMenuData = flattenMenu(menusData);
                 yield put({

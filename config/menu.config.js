@@ -6,6 +6,12 @@ export default [
         icon: "github"
     },
     {
+        title: "demo",
+        link: "/sys/demo",
+        key: "demo",
+        icon: "github"
+    },
+    {
         title: "地域分析",
         link: "/sys/regionalAnalysis",
         key: "regionalAnalysis",
